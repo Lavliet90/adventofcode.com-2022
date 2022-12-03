@@ -23,13 +23,13 @@ alfabet = {
 
 # part 1
 
-# sum_item = 0
-# for string in file_number:
-#     for word in string[0: int(len(string)/2)]:
-#         if word in string[int(len(string)/2): len(string)]:
-#             sum_item += alfabet.get(word)
-#             break
-# print(sum_item)
+sum_item = 0
+for string in file_number:
+    for word in string[0: int(len(string)/2)]:
+        if word in string[int(len(string)/2): len(string)]:
+            sum_item += alfabet.get(word)
+            break
+print(sum_item)
 
 # part 2
 
